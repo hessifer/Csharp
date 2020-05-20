@@ -8,6 +8,7 @@ static constructors, instance constructors, finalizers (GC) are not inherited fr
 
 public class A
 {
+   // private member, only accessible from within the clase or a nested derived class
    private int value = 10;
 
    public class B : A
