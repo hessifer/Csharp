@@ -19,7 +19,9 @@ public class A
    private int value = 10;
    public string color = "blue";
 
+   // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract
    // Using 'virtual' here since this is not an abstract class (abstract class required for 'abstract member')
+   // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual
    public virtual void SayHello() // use 'virtual' keyword here so that we can override in base class
    {
        Console.WriteLine("Hello World!");
