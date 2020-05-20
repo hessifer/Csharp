@@ -14,7 +14,8 @@ public class A
    {
        public int GetValue()
        {
-           return this.value; // this will work as B is nested in the base class A
+           // this will work as B is nested in the base class A
+           return this.value; 
        }
    }
 }
